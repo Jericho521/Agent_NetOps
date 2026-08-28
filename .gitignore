@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# Node.js
+node_modules/
+frontend/node_modules/
+
+# Environment & Secrets
+.env
+.env.*
+backend/.env
+frontend/.env
+*.key
+*.pem
+*.db
+*.sqlite3
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build output (前端构建产物 - 可重新生成)
+netops-platform/frontend/dist/
+
+# 临时文件
+*.tmp
+*.bak
+*.log
+uploads/
+generated-images/
+
+# AI/缓存
+.codebuddy/
+.cache/
